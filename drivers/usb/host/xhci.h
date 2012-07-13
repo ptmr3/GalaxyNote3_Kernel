@@ -1504,6 +1504,11 @@ struct xhci_hcd {
  * (16.66 ns x 5 = 84ns) ~100ns after writing to the PORTSC register.
  */
 #define XHCI_PORTSC_DELAY	(1 << 10)
+<<<<<<< HEAD
+=======
+#define XHCI_TRUST_TX_LENGTH	(1 << 10)
+#define XHCI_SPURIOUS_REBOOT	(1 << 13)
+>>>>>>> 6a395e9... Linux 3.4.6 - 3.4.10
 	unsigned int		num_active_eps;
 	unsigned int		limit_active_eps;
 	/* There are two roothubs to keep track of bus suspend info for */
