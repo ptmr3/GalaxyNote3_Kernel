@@ -2275,13 +2275,13 @@ config MSM_CPUFREQ_LIMITER
 
 	  If in doubt, say N.
 
-config SK_Yellow
+config SK_YELLOW
 	bool "2.496 GHz max OC"
         default n
         help
           Overclock freq to 2.5 GHz
 
-config SK_Red
+config SK_RED
 	bool "2.649 GHz max OC"
         default n
         help
