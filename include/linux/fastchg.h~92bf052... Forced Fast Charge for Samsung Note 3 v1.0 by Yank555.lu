@@ -25,7 +25,7 @@
 
 extern int force_fast_charge;
 
-#define FAST_CHARGE_DISABLED 0  /* default */
+#define FAST_CHARGE_DISABLED 0	/* default */
 #define FAST_CHARGE_FORCE_AC 1
 #define FAST_CHARGE_FORCE_CUSTOM_MA 2
 
@@ -39,14 +39,14 @@ extern int ac_charge_level;
 #define AC_CHARGE_1500 1500
 #define AC_CHARGE_1600 1600
 #define AC_CHARGE_1700 1700
-#define AC_CHARGE_1800 1800  /* default */
+#define AC_CHARGE_1800 1800	/* default */
 #define AC_CHARGE_1900 1900
 #define AC_CHARGE_2000 2000
 #define AC_CHARGE_2100 2100
 
 extern int usb_charge_level;
 
-#define USB_CHARGE_460 460  /* default */
+#define USB_CHARGE_460 460	/* default */
 #define USB_CHARGE_500 500
 #define USB_CHARGE_600 600
 #define USB_CHARGE_700 700
@@ -54,11 +54,10 @@ extern int usb_charge_level;
 #define USB_CHARGE_900 900
 #define USB_CHARGE_1000 1000
 
-#define MAX_CHARGE_LEVEL 2100  /* Whatever happens, this is the limit */
+#define MAX_CHARGE_LEVEL 2100	/* Whatever happens, this is the limit */
 
 extern int failsafe;
-
-#define FAIL_SAFE_ENABLED 1  /* default */
+#define FAIL_SAFE_ENABLED 1	/* default */
 #define FAIL_SAFE_DISABLED 0
 
 #endif
