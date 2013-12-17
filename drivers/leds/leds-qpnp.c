@@ -3060,6 +3060,7 @@ static int __devinit qpnp_get_config_mpp(struct qpnp_led_data *led,
 
 #ifdef SAMSUNG_LED_PATTERN
 /* Pattern Start*/
+
 static void samsung_led_set(struct qpnp_led_data *info,
                                                 enum led_brightness value){
     int rc;
@@ -3417,7 +3418,7 @@ static struct attribute *sec_led_attributes[] = {
 	&dev_attr_led_g.attr,
 	&dev_attr_led_b.attr,
 	&dev_attr_led_blink.attr,
-       &dev_attr_led_lowpower.attr,
+        &dev_attr_led_lowpower.attr,
 	NULL,
 };
 
